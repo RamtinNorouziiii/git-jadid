@@ -1,0 +1,84 @@
+// Here you can add other styles
+@font-face {
+    font-family: 'IranSans';
+    src: local('IranSans'), url(../font/FontsFree-Net-ir_sans.ttf) format('truetype');
+  }
+  body{
+    font-family: "IranSans";
+    background-image: url(../assets/images/content-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    }
+.ant-table table { font-size: 12px; }
+  
+.tr, td, th{
+  font-family: "IranSans";
+  border-width: 1px !important;
+  border-color: #EAEAEA !important;
+  font-size: 10px;
+  
+}
+
+.ant-table-cell{
+  font-family: "IranSans";
+  text-align: center !important;
+  font-size: 10px;
+
+
+}
+.loginBg{
+  background-image: url(../assets/images/content-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.custom-antd-table .ant-table-cell {
+  padding: 2px 2px; /* Adjust padding to decrease row height */
+}
+
+.custom-antd-table .ant-table-row {
+  height: 2px; /* Set a specific height if needed */
+}
+.ant-table {
+  font-size: 9px;
+}
+
+/* row data */
+.ant-table-tbody > tr > td {
+  height: 5px;
+  padding: 4px;
+}
+/* row tags */
+.my-tag {
+  font-size: 12px;
+}
+.ant-table-thead > tr > th {
+  height: 5px;
+  padding: 4px;
+}
+.picker-input-wrapper{
+  min-width: 140px !important;
+}
+.stripedRow{
+background-color: #EAEAEA;
+}
+.stripedRow2{
+  background-color: white;
+
+}
+
+tbody > tr:hover > td{
+  background: #d4d4d4 !important;
+  transition: background-color 0.01s ease !important;
+}
+
+th  {
+  background-color: #084919 !important;
+color: white !important;
+}
+ .btn-close{
+color: white !important;
+background-color: white !important; ;
+}
+
