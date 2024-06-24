@@ -191,8 +191,8 @@ const _nav = [
       // },
       {
         component: CNavItem,
-        name: 'گزارش صورتحساب',
-        to: '/forms/validation',
+        name: 'گزارش صورتحساب از سامانه FPL2',
+        to: '/form',
         icon: <CIcon icon={cilClone} customClassName="nav-icon" />
       },
     ],
@@ -270,6 +270,7 @@ const _nav = [
   //   component: CNavTitle,
   //   name: 'Extras',
   // },
+  /*
   {
     component: CNavGroup,
     name: 'مدیریت كاربران',
@@ -298,6 +299,7 @@ const _nav = [
       // },
     ],
   },
+  */
   // {
   //   component: CNavItem,
   //   name: 'Docs',

@@ -1,8 +1,7 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
+  "name": "FPL",
   "version": "5.0.0",
-  "description": "CoreUI Free React Admin Template",
-  "homepage": ".",
+  "description": "FPL",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },

@@ -45,11 +45,13 @@ const submitForm = async()=>{
     withCredentials:true,
   
   })
-  console.log(res)
-  localStorage.setItem("COOKIE_FPL",res.data?.message)
-  navigate("/")
+  console.log(res.data.response)
+  localStorage.setItem("COOKIE_FPL",res.data?.response?.token)
+  localStorage.setItem("NAME_FPL",res.data?.response?.name)
+
+  navigate("/form")
   }catch(err){
-    if(err.response.status===401) return message.error("نام کاربری یا رمز عبور اشتباه است !")
+    return message.error("نام کاربری یا رمز عبور اشتباه است !")
 console.log("ERROR",err)
   }
 // const res = await fetch(`${process.env.BASE_URL}/Authentication`,
@@ -93,7 +95,7 @@ console.log("ERROR",err)
               <CCard className="p-4">
                 <CCardBody>
                   <CForm>
-                    <h6 className='text-center' >  ورود به سامانه یکپارچه سازی اطلاعات </h6>
+                    <h6 className='text-center' >   سامانه تجمیع و یکپارچه سازی اطلاعات </h6>
                     <br />
                     <CInputGroup className="mb-3">
                       

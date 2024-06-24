@@ -66,10 +66,10 @@ const AppHeader = () => {
           <CNavItem>
             <CNavLink href="#">Settings</CNavLink>
           </CNavItem> */}
-          کاربر علیرضا مرادی خوش آمدید !
+        کاربر {localStorage.getItem("NAME_FPL")} خوش آمدید 
         </CHeaderNav>
         <CHeaderNav className="mx-auto">
-     <p  style={{color:"#de2f43",fontSize:"15px",margin:"0px"}} >   سامانه یکپارچه سازی اطلاعات  </p>
+          <p style={{ color: "black", fontSize: "15px", margin: "0px" }} >   سامانه تجمیع و یکپارچه سازی اطلاعات  </p>
         </CHeaderNav>
         <CHeaderNav>
         {/* <li className="nav-item py-1">
@@ -124,7 +124,7 @@ const AppHeader = () => {
             <div className="vr h-100 mx-2 text-body text-opacity-75"></div>
           </li>
           {/* <AppHeaderDropdown /> */}
-          <a className='d-flex' style={{textDecoration:"none"}}  href='http://localhost:3000/#/login' >
+          <a className='d-flex' style={{textDecoration:"none"}}  href={`/#/login`} >
 
           <CButton
           onClick={()=>{
