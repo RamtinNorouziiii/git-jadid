@@ -8,7 +8,7 @@ const [toggle,setToggle]=useState(false)
    
   return (
     <div>
-       <iframe src={`${process.env[`BASE_URL_${process.env.APP_DEVELOPE}`]}/weatherforecast/GetReportFpl?br=${getDetail?.br || null}&no_acc=${getDetail?.no_acc || null}&bm=${getDetail?.bm || null}&startdate=${startdate&&p2e(startdate) || ""}&enddate=${enddate&&p2e(enddate) || ""}`} width="100%" height="600px" title="PDF Viewer" />
+       <iframe src={`${process.env[`BASE_URL_${process.env.APP_MODE}`]}/weatherforecast/GetReportFpl?br=${getDetail?.br || null}&no_acc=${getDetail?.no_acc || null}&bm=${getDetail?.bm || null}&startdate=${startdate&&p2e(startdate) || ""}&enddate=${enddate&&p2e(enddate) || ""}`} width="100%" height="600px" title="PDF Viewer" />
     </div>
   )
 }

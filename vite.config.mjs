@@ -12,7 +12,8 @@ const cherryPickedKeys = [
   "SSO_REFRENCE_URL_develop",
   "BASE_URL_release",
   "SSO_LOGIN_URL_release",
-  "SSO_REFRENCE_URL_release"
+  "SSO_REFRENCE_URL_release",
+  "SSO_LOGOUT_URL_release"
 ];
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');

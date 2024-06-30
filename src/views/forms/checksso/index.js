@@ -125,7 +125,7 @@ const deleteFilters = ()=>{
     })
   
     setLoading(true)
-  axios.get(`${process.env[`BASE_URL_${process.env.APP_DEVELOPE}`]}/weatherforecast/GetVW_Get_BrMast?br=${codeShobe || null}&no_acc=${accountNumber || null}&name=${nameKarmandy || null}&emply_no=${employeeNumber || null}`,{
+  axios.get(`${process.env[`BASE_URL_${process.env.APP_MODE}`]}/weatherforecast/GetVW_Get_BrMast?br=${codeShobe || null}&no_acc=${accountNumber || null}&name=${nameKarmandy || null}&emply_no=${employeeNumber || null}`,{
     withCredentials:false,
       headers: {
         'Authorization' : `Bearer ${localStorage.getItem("COOKIE_FPL")}`

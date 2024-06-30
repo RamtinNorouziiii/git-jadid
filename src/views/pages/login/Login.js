@@ -36,11 +36,11 @@ setUsername(e.target.value)
  
 }
 }
-console.log(`${process.env[`BASE_URL_${process.env.APP_DEVELOPE}`]}/Authentication`)
+console.log(`${process.env[`BASE_URL_${process.env.APP_MODE}`]}/Authentication`)
 const submitForm = async()=>{
   const data={username,password}
   try{
-  const res =  await axios.post(`${process.env[`BASE_URL_${process.env.APP_DEVELOPE}`]}/Authentication`,{
+  const res =  await axios.post(`${process.env[`BASE_URL_${process.env.APP_MODE}`]}/Authentication`,{
     username,password
   },{
     withCredentials:true,

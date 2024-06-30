@@ -48,9 +48,9 @@ const AppHeader = () => {
 const LogOutFunc  = ()=>{
  
   
-    window.localStorage.removeItem("COOKIE_FPL")
-  //window.location.href = "https://login.bm/ExternalServices/Sso/Logout/Logout.aspx?ReturnUrl=http://localhost:8080/%23/login"
-  //window.location.href = "${ process.env[`BASE_URL_${process.env.SSO_LOGOUT_URL_release}`] }"
+    //window.localStorage.removeItem("COOKIE_FPL")
+   
+  window.location.href = ` ${process.env[`SSO_LOGOUT_URL_${process.env.APP_MODE}`]}`
   
   
 }

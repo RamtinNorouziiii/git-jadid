@@ -35,7 +35,7 @@ console.log(startdate)
   useEffect(() => {
 setLoading(true)
   if (requestToggle) {
-    axios.get(`${process.env[`BASE_URL_${process.env.APP_DEVELOPE}`]}/weatherforecast/GetTranAll?br=${getDetail?.br || null}&no_acc=${getDetail?.no_acc || null}&emply_no=${getDetail?.emply_no || null}&bm=${getDetail?.bm || null}&startdate=${startdate&&p2e(startdate) || ""}&enddate=${enddate&&p2e(enddate) || ""}`,{
+    axios.get(`${process.env[`BASE_URL_${process.env.APP_MODE}`]}/weatherforecast/GetTranAll?br=${getDetail?.br || null}&no_acc=${getDetail?.no_acc || null}&emply_no=${getDetail?.emply_no || null}&bm=${getDetail?.bm || null}&startdate=${startdate&&p2e(startdate) || ""}&enddate=${enddate&&p2e(enddate) || ""}`,{
       withCredentials:false,
       headers: {
         'Authorization' : `Bearer ${localStorage.getItem("COOKIE_FPL")}`
