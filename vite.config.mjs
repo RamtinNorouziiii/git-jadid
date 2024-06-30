@@ -5,7 +5,14 @@ import autoprefixer from 'autoprefixer'
 
 const cherryPickedKeys = [
   "BASE_URL",
-  "SOME_OTHER_KEY_IN_YOUR_ENV_FILE",
+  "APP_MODE",
+  "APP_DEVELOPE",
+  "BASE_URL_develop",
+  "SSO_LOGIN_URL_develop",
+  "SSO_REFRENCE_URL_develop",
+  "BASE_URL_release",
+  "SSO_LOGIN_URL_release",
+  "SSO_REFRENCE_URL_release"
 ];
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');

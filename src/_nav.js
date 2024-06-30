@@ -195,6 +195,12 @@ const _nav = [
         to: '/form',
         icon: <CIcon icon={cilClone} customClassName="nav-icon" />
       },
+      {
+        component: CNavItem,
+        name: 'گزارشات سامانه ساعی ',
+        to: '/saei',
+        icon: <CIcon icon={cilClone} customClassName="nav-icon" />
+      },
     ],
   },
   // {

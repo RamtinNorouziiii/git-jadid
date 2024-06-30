@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\font",
-    "\\src\\views",
-    "\\src\\views\\pages",
-    "\\src\\views\\pages\\login"
+    "\\src\\font"
   ],
-  "SelectedNode": "\\src\\views\\pages\\login\\Login.js",
+  "SelectedNode": "\\src\\font\\FontsFree-Net-ir_sans.ttf",
   "PreviewInSolutionExplorer": false
 }

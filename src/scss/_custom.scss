@@ -1,8 +1,8 @@
 // Here you can add other styles
 @font-face {
-    font-family: 'IranSans';
-    src: local('IranSans'), url(../font/FontsFree-Net-ir_sans.ttf) format('truetype');
-  }
+  font-family: 'IranSans';
+  src: local('IranSans'), url(../font/FontsFree-Net-ir_sans.ttf) format('truetype');
+}
   body{
     font-family: "IranSans";
     background-image: url(../assets/images/content-bg.png);
@@ -62,9 +62,12 @@
 }
 .stripedRow{
 background-color: #EAEAEA;
+cursor: pointer;
 }
 .stripedRow2{
   background-color: white;
+cursor: pointer;
+
 
 }
 

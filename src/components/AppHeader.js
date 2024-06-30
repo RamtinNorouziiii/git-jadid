@@ -29,6 +29,7 @@ import {
 
 import { AppBreadcrumb } from './index'
 import { AppHeaderDropdown } from './header/index'
+import axios from 'axios'
 
 const AppHeader = () => {
   const headerRef = useRef()
@@ -44,7 +45,15 @@ const AppHeader = () => {
     })
 
   }, [])
-
+const LogOutFunc  = ()=>{
+ 
+  
+    window.localStorage.removeItem("COOKIE_FPL")
+  //window.location.href = "https://login.bm/ExternalServices/Sso/Logout/Logout.aspx?ReturnUrl=http://localhost:8080/%23/login"
+  //window.location.href = "${ process.env[`BASE_URL_${process.env.SSO_LOGOUT_URL_release}`] }"
+  
+  
+}
   return (
     <CHeader position="sticky" className="mb-4 p-0" ref={headerRef} style={{backgroundColor:"#EAEAEA"}} >
       <CContainer className="border-bottom px-4" style={{minHeight:"35px"}} fluid>
@@ -69,7 +78,7 @@ const AppHeader = () => {
         کاربر {localStorage.getItem("NAME_FPL")} خوش آمدید 
         </CHeaderNav>
         <CHeaderNav className="mx-auto">
-          <p style={{ color: "black", fontSize: "15px", margin: "0px" }} >   سامانه تجمیع و یکپارچه سازی اطلاعات  </p>
+          <p style={{ color: "black", fontSize: "15px", margin: "0px" }} >   سامانه گزارشات میز خدمت پشتیبانی  </p>
         </CHeaderNav>
         <CHeaderNav>
         {/* <li className="nav-item py-1">
@@ -127,9 +136,10 @@ const AppHeader = () => {
           <a className='d-flex' style={{textDecoration:"none"}}  href={`/#/login`} >
 
           <CButton
-          onClick={()=>{
-            window.localStorage.removeItem("COOKIE_FPL")
-          }}
+          onClick={
+           LogOutFunc
+
+          }
           style={{fontSize:"9px",margin:"auto",display:"flex",alignItems:"center",backgroundColor:"#e33044"}}
                        
                       >

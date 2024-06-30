@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\",
+  "WorkspaceRootPath": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\components\\AppHeader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\components\\AppHeader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\AppHeader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\views\\pages\\login\\Login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\detgrid\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\forms\\detgrid\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\validation\\Validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\forms\\validation\\Validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\checksso\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\forms\\checksso\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\pages\\login\\Login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\pages\\login\\Login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\scss\\_custom.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\scss\\_custom.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.js",
-              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\index.js",
-              "RelativeDocumentMoniker": "src\\index.js",
-              "ToolTip": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\index.js",
-              "RelativeToolTip": "src\\index.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-23T12:50:26.584Z",
+              "DocumentIndex": 7,
+              "Title": "_custom.scss",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\scss\\_custom.scss",
+              "RelativeDocumentMoniker": "src\\scss\\_custom.scss",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\scss\\_custom.scss",
+              "RelativeToolTip": "src\\scss\\_custom.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-06-26T07:42:18.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.js",
-              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\App.js",
-              "RelativeDocumentMoniker": "src\\App.js",
-              "ToolTip": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\App.js",
-              "RelativeToolTip": "src\\App.js",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAwAAAALAAAA",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-26T07:38:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.js",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\detgrid\\index.js",
+              "RelativeDocumentMoniker": "src\\views\\forms\\detgrid\\index.js",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\detgrid\\index.js",
+              "RelativeToolTip": "src\\views\\forms\\detgrid\\index.js",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAO8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-23T12:26:46.825Z",
+              "WhenOpened": "2024-06-26T07:37:45.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Validation.js",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\validation\\Validation.js",
+              "RelativeDocumentMoniker": "src\\views\\forms\\validation\\Validation.js",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\validation\\Validation.js",
+              "RelativeToolTip": "src\\views\\forms\\validation\\Validation.js",
+              "ViewState": "AQIAAGwBAAAAAAAAAAAmwF4BAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-25T13:18:08.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.js",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\checksso\\index.js",
+              "RelativeDocumentMoniker": "src\\views\\forms\\checksso\\index.js",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\forms\\checksso\\index.js",
+              "RelativeToolTip": "src\\views\\forms\\checksso\\index.js",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAewHkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-25T13:12:29.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": ".env",
-              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\.env",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\.env",
               "RelativeDocumentMoniker": ".env",
-              "ToolTip": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\.env",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\.env",
               "RelativeToolTip": ".env",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-06-23T10:45:41.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Login.js",
-              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\views\\pages\\login\\Login.js",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\pages\\login\\Login.js",
               "RelativeDocumentMoniker": "src\\views\\pages\\login\\Login.js",
-              "ToolTip": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\views\\pages\\login\\Login.js",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\views\\pages\\login\\Login.js",
               "RelativeToolTip": "src\\views\\pages\\login\\Login.js",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAWwBoAAAAaAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-06-23T06:03:41.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppHeader.js",
-              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\components\\AppHeader.js",
+              "DocumentMoniker": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\components\\AppHeader.js",
               "RelativeDocumentMoniker": "src\\components\\AppHeader.js",
-              "ToolTip": "D:\\OtherFile\\SourceRDBF\\Client2\\git-jadid\\src\\components\\AppHeader.js",
+              "ToolTip": "D:\\OtherFile\\SourceRDBF\\client3\\git-jadid\\src\\components\\AppHeader.js",
               "RelativeToolTip": "src\\components\\AppHeader.js",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAcwH0AAAAnAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAuwEkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-06-22T17:44:54.273Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
             }
           ]
         }

@@ -7,6 +7,8 @@ import { CContainer, CSpinner } from '@coreui/react'
 import { useSelector, useDispatch } from 'react-redux'
 import Validation from '../views/forms/validation/Validation'
 import Login from '../views/pages/login/Login'
+import CheckSso from '../views/forms/checksso'
+import SaeiComp from '../views/forms/saei'
 
 const AppContent = () => {
   const sidebarShow = useSelector((state) => state.sidebarShow)
@@ -30,6 +32,10 @@ const AppContent = () => {
           })} */}
           {/* <Route path="/" element={<Login />} /> */}
           <Route path="/form" element={<Validation />} />
+          <Route path="/saei" element={<SaeiComp />} />
+
+          <Route path="/checksso" element={<CheckSso />} />
+
 
         </Routes>
       </Suspense>

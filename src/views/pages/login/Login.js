@@ -36,10 +36,11 @@ setUsername(e.target.value)
  
 }
 }
+console.log(`${process.env[`BASE_URL_${process.env.APP_DEVELOPE}`]}/Authentication`)
 const submitForm = async()=>{
   const data={username,password}
   try{
-  const res =  await axios.post(`${process.env.BASE_URL}/Authentication`,{
+  const res =  await axios.post(`${process.env[`BASE_URL_${process.env.APP_DEVELOPE}`]}/Authentication`,{
     username,password
   },{
     withCredentials:true,
@@ -95,7 +96,7 @@ console.log("ERROR",err)
               <CCard className="p-4">
                 <CCardBody>
                   <CForm>
-                    <h6 className='text-center' >   سامانه تجمیع و یکپارچه سازی اطلاعات </h6>
+                    <h6 className='text-center' >   سامانه گزارشات میز خدمت پشتیبانی </h6>
                     <br />
                     <CInputGroup className="mb-3">
                       
@@ -124,7 +125,14 @@ console.log("ERROR",err)
                        <span className='mx-2' >  ورود </span>
                         </CButton>
                       </CCol>
-                      
+                      <CCol style={{textAlign:"center"}} >
+                       <a target='_blank' href={`${process.env[`SSO_LOGIN_URL_${process.env.APP_MODE}`]}${process.env[`SSO_REFRENCE_URL_${process.env.APP_MODE}`]}`} >
+                        <CButton  className="px-4" style={{fontSize:"12px",backgroundColor:"#d92f42",color:"white"}}  >
+                       <RiLoginBoxLine style={{margin:"auto",fontSize:"16px"}} />
+                       <span className='mx-2' >  SSO </span>
+                        </CButton>
+                        </a>
+                      </CCol>
                     </CRow>
                   </CForm>
                 </CCardBody>

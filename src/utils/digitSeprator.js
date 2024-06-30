@@ -7,3 +7,6 @@ export function formatPrice(price) {
 
     return formattedPrice;
 }
+export function addSlashes(str) {
+    return str.match(/.{1,2}/g).join('/');
+  }
